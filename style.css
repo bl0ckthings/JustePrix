@@ -1,0 +1,38 @@
+html,
+body {
+  background: rgb(0, 134, 142);
+  background: radial-gradient(circle, rgba(0, 134, 142, 1) 0%, rgba(0, 80, 173, 1) 100%);
+  min-width: 500px;
+}
+
+header {
+  color: #00868e;
+  text-align: center;
+  font-size: 4em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Londrina Sketch', cursive;
+}
+
+#instructions {
+  color: white;
+
+}
+
+.instruction {
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 30px;
+}
+
+.plus {
+  background-color: #f67280;
+}
+
+.moins {
+  background-color: #ffa372;
+}
+
+.fini {
+  background-color: #0c9463;
+
+}
