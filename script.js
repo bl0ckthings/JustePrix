@@ -9,7 +9,7 @@ error.style.display = 'none';
 // Etape 3 - Générer un nombre aléatoire
 
 
-let randomNumber = Math.floor(Math.random() * 1001);
+let randomNumber = Math.floor(Math.random() * 501);
 let coups = 0;
 let chosenNumber;
 
@@ -78,4 +78,3 @@ form.addEventListener('submit', (e) => {
 })
 // Etape 6 - Créer la fonction vérifier
 
-console.log(randomResponse);
