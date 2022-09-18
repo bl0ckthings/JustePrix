@@ -42,14 +42,18 @@ header {
 
 
 
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 800px) {
 
-  #body {
-    max-width: 300px;
+
+
+  body {
+
+    overflow-x: hidden !important;
+
   }
 
   main {
-    width: 86%;
+    width: 84%;
 
   }
 
@@ -67,4 +71,21 @@ header {
   }
 
   #header {}
+
+
+  .instruction {
+    font-size: 10px;
+    max-width: 380px;
+
+  }
+
+  #pop {
+    margin-left: 20px;
+  }
 }
+
+
+/* #pop {
+  width: 84%;
+  margin-left: ;
+} */
