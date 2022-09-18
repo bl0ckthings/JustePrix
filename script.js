@@ -24,7 +24,7 @@ function generateInteger(max) {
 
 function verifier(number) {
     let instruction = document.createElement('div');
-    let responsePlus = [['#' + coups + " ( " + number + " ) C'est plus !"], ['#' + coups + " ( " + number + " ) Raté gros chamo , c plus !"], ['#' + coups + " ( " + number + " ) T un choqué j'tai dis c'est +"], ['#' + coups + " ( " + number + " ) t'as vu plus ? et ben c'est"], ['#' + coups + " ( " + number + " ) c plus, ta mere la jungle"], ['#' + coups + " ( " + number + " ) oueee c plus oueee"]];
+    let responsePlus = [['#' + coups + " ( " + number + " ) C'est plus !"], ['#' + coups + " ( " + number + " ) Raté gros chamo , c plus !"], ['#' + coups + " ( " + number + " ) T un choqué j'tai dis c'est +"], ['#' + coups + " ( " + number + " ) t'as vu plus ? et ben c'est"], ['#' + coups + " ( " + number + " ) c plus, ta mere la jungle"], ['#' + coups + " ( " + number + " ) oueee c plus oueee"], ['#' + coups + " ( " + number + " ) ZABOR OMOK C PLUS !"]];
     let responseMoins = [['#' + coups + " ( " + number + " ) C'est moins ! !"], ['#' + coups + " ( " + number + " ) Que t'abuse toi aussi, c moins !"], ['#' + coups + " ( " + number + " )  kesta gros zgeg j'tai dis c moins !"], ['#' + coups + " ( " + number + " ) le con de ton crane c moins"], ['#' + coups + " ( " + number + " ) Non c moins trouduc"]];
     randomPlus = generateInteger(responsePlus.length);
     randomMoins = generateInteger(responseMoins.length);
