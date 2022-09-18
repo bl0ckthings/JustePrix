@@ -24,8 +24,8 @@ function generateInteger(max) {
 
 function verifier(number) {
     let instruction = document.createElement('div');
-    let responsePlus = [['#' + coups + " ( " + number + " ) C'est plus !"], ['#' + coups + " ( " + number + " ) Raté gros chamo , c plus !"], ['#' + coups + " ( " + number + " ) T un choqué j'tai dis c'est +"], ['#' + coups + " ( " + number + " ) gros noob c plus encore!"]];
-    let responseMoins = [['#' + coups + " ( " + number + " ) C'est moins ! !"], ['#' + coups + " ( " + number + " ) Que t'abuse toi aussi, c moins !"], ['#' + coups + " ( " + number + " )  kesta gros zgeg j'tai dis c moins !"], ['#' + coups + " ( " + number + " ) MDR, meme pas je parle, diminue seulement!"]];
+    let responsePlus = [['#' + coups + " ( " + number + " ) C'est plus !"], ['#' + coups + " ( " + number + " ) Raté gros chamo , c plus !"], ['#' + coups + " ( " + number + " ) T un choqué j'tai dis c'est +"], ['#' + coups + " ( " + number + " ) t'as vu plus ? et ben c'est"], ['#' + coups + " ( " + number + " ) c plus, ta mere la jungle"], ['#' + coups + " ( " + number + " ) oueee c plus oueee"]];
+    let responseMoins = [['#' + coups + " ( " + number + " ) C'est moins ! !"], ['#' + coups + " ( " + number + " ) Que t'abuse toi aussi, c moins !"], ['#' + coups + " ( " + number + " )  kesta gros zgeg j'tai dis c moins !"], ['#' + coups + " ( " + number + " ) le con de ton crane c moins"], ['#' + coups + " ( " + number + " ) Non c moins trouduc"]];
     randomPlus = generateInteger(responsePlus.length);
     randomMoins = generateInteger(responseMoins.length);
 
@@ -42,8 +42,9 @@ function verifier(number) {
         // Ajouter un contenu "#1" (4) c'est moins !"
         // Ajouter les classes instruction et moins
     } else {
-        instruction.textContent = '#' + coups + " ( " + number + " ) Et merceeee t'es un monstre pti con !";
+        instruction.textContent = '#' + coups + " ( " + number + " )  TAINNNN T UN JUS TA TROUVER !! GG";
         instruction.className = "instruction fini";
+
         input.disabled = true;
         // Felicitations vous avez trouvé le juste prix ! 
         // Ajouter les classes instructions et fini
