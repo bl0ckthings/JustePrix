@@ -43,9 +43,9 @@ function verifier(number) {
         input.disabled = true;
 
 
-        document.getElementById('instructions').prepend(instruction);
-    }
 
+    }
+    document.getElementById('instructions').prepend(instruction);
 }
 
 
